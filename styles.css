@@ -1,6 +1,7 @@
 :root {
     --cor-de-fundo: #EBECEE;
-    --branco:#fff
+    --branco:#fff;
+    --laranja:#EB9B00;
     }
 
     body {
@@ -34,7 +35,7 @@
   .lista-menu {
     display: none;
     position: absolute;
-    top: 10%;
+    top: 8%;
   
   }
 
@@ -42,4 +43,20 @@
     display: block;
   }
 
-      
+  .lista-menu__titulo, 
+  .lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+  }    
+
+  .lista-menu__titulo{
+    color: var(--laranja);
+  }
+
+  .lista-menu__link {
+      background: var(--azul-degrade);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: rgb(58, 233, 15);
+      background-clip: text;
+      text-transform: uppercase;
+  }
