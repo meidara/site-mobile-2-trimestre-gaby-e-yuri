@@ -36,8 +36,8 @@
   .lista-menu {
     display: none;
     position: absolute;
-    top: 8%;
-    width: 84vw;
+    top: 9%;
+    width: 9vw;
   }
 
   .container__botao:checked~.lista-menu{
